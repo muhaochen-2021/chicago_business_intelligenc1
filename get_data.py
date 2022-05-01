@@ -18,7 +18,7 @@ db_host = "/cloudsql/chicago-business-intelligenc1:us-central1:mypostgres1"
 # set connection function
 
 def connect_db():
-    return psycopg2.connect(host=db_host,dbname="chicago_business_intelligenc1", user="postgres" , password="12345",port="root")
+    return psycopg2.connect(host=db_host,dbname="chicago_business_intelligenc1", user="postgres" , password="root",port="5432")
 
 ###########################################table1
 
